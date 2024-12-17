@@ -6,3 +6,8 @@ services:
       - "8000:8000"
     networks:
       - cicd
+
+networks:
+  cicd:
+    driver: bridge
+
